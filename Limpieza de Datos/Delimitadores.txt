@@ -1,0 +1,8 @@
+comma es uno posible, de entre todos.
+punto y comma, arroba, o cualquier caracter especial inclusive un espacio podria ser
+un separador valido.
+
+La manera facil de saber cual es el delimitador es abrirlos con algun notepad o lector
+de texto plano.
+
+Es mejor siempre que los datasets vengan documentados y explicados si es necesario.

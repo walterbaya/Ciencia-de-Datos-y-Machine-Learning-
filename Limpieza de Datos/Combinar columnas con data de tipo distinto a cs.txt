@@ -1,0 +1,3 @@
+se puede combinar por ejemplo un txt con un archivo de columnas, se lee en formato csv
+de todas maneras si se quiere, luego se pueden obtener los nombres de columnas usando
+Column_Names y de ahi derivar en una lista

@@ -1,0 +1,20 @@
+names: Nombres de las columnas, un array que dira como debe ser el nombre de las columnas.
+header: Indica cual es el numero de fila que representa la cabecera.
+dtype: 
+dtype = ("a": np.float64, "b":np.int32)
+
+De esta manera se especifica como cada columna queremos que se cargue en un tipo de dato
+en particular, en este caso a en float y b en int.
+
+skiprows: skiprows, sirve para esquivar un numero de filas, ejemplo skiprows = 12 nos saltamos las
+primeras 12 y leeriamos como primera la numero 13
+
+index_col: secuencia, no se aplican etiquetas a cada una de las filas, sin embargo podemos
+	   decidir ponerle identificadores a las filas ademas de a las columnas.
+
+skip_blank_lines = True o False, esquiva las lineas en blanco, en vez de interpretarlas
+		   como valores Nan, no las toma en cuenta.
+
+na_filter: True False, detecta marcadores de valores que falten en el dataset,
+		       eliminandolos, si estan en blanco, en el caso en que figure
+			False.
